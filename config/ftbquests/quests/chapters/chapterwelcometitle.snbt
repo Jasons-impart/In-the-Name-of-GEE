@@ -16,15 +16,67 @@
 	id: "0B303D34AE655944"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "6F97317889107DC6"
-		tasks: [{
-			id: "6B6A9C83F5A0C7A5"
+	quests: [
+		{
+			description: ["{quest.introduction1.description}"]
+			id: "6F97317889107DC6"
+			tasks: [{
+				id: "6B6A9C83F5A0C7A5"
+				title: "{quest.introduction1.title}"
+				type: "checkmark"
+			}]
 			title: "{quest.introduction1.title}"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F97317889107DC6"]
+			description: ["{quest.introduction2.description}"]
+			id: "2F8B234F12E43DA7"
+			tasks: [{
+				id: "3ABC19901CF939D9"
+				title: "{quest.introduction2.title}"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F8B234F12E43DA7"]
+			description: ["{quest.introduction3.description}"]
+			id: "66C237E1752DC93C"
+			tasks: [{
+				id: "0401F078578628B2"
+				title: "{quest.introduction3.title}"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66C237E1752DC93C"]
+			description: ["{quest.introduction4.description}"]
+			id: "3F413B904792917B"
+			tasks: [{
+				id: "3325299856DB7516"
+				title: "{quest.introduction4.title}"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F413B904792917B"]
+			description: ["{quest.introduction5.description}"]
+			id: "6D836DB34E1497A9"
+			tasks: [{
+				id: "110C98FCA4E9BC6F"
+				title: "{quest.introduction5.title}"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+	]
 	title: "{chapter.welcome.title}"
 }
