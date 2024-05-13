@@ -1,0 +1,30 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapterwelcometitle"
+	group: ""
+	icon: {
+		Count: 1b
+		id: "minecraft:enchanted_book"
+		tag: {
+			StoredEnchantments: [{
+				id: "minecraft:protection"
+				lvl: 4s
+			}]
+		}
+	}
+	id: "0B303D34AE655944"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "6F97317889107DC6"
+		tasks: [{
+			id: "6B6A9C83F5A0C7A5"
+			title: "{quest.introduction1.title}"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "{chapter.welcome.title}"
+}
