@@ -1,0 +1,233 @@
+{
+  "mode": "static",
+  "version": 1,
+  "enchantments": [
+    {
+      "enchantment_id": "minecraft:sharpness",
+      "max_level": 5,
+      "urba": 2000.0,
+      "tera": 5000.0
+    },
+    {
+      "enchantment_id": "minecraft:protection",
+      "max_level": 4,
+      "ardo": 10000.0,
+      "kelda": 1000.0
+    },
+    {
+      "enchantment_id": "minecraft:aqua_affinity",
+      "max_level": 1,
+      "urba": 1500.0,
+      "zeta": 1000.0
+    },
+    {
+      "enchantment_id": "minecraft:bane_of_arthropods",
+      "max_level": 5,
+      "fira": 3500.0,
+      "ultima": 2000.0
+    },
+    {
+      "enchantment_id": "minecraft:blast_protection",
+      "max_level": 5,
+      "tera": 5000.0,
+      "giro": 3000.0
+    },
+    {
+      "enchantment_id": "minecraft:channeling",
+      "max_level": 1,
+      "ultima": 2500.0,
+      "urba": 2500.0
+    },
+    {
+      "enchantment_id": "minecraft:depth_strider",
+      "max_level": 3,
+      "tera": 1500.0,
+      "zeta": 2500.0
+    },
+    {
+      "enchantment_id": "minecraft:efficiency",
+      "max_level": 5,
+      "urba": 1000.0,
+      "tera": 4000.0,
+      "giro": 3000.0
+    },
+    {
+      "enchantment_id": "minecraft:feather_falling",
+      "max_level": 4,
+      "kelda": 2000.0,
+      "zeta": 1500.0
+    },
+    {
+      "enchantment_id": "minecraft:fire_aspect",
+      "max_level": 2,
+      "ultima": 5000.0,
+      "fira": 5000.0
+    },
+    {
+      "enchantment_id": "minecraft:fire_protection",
+      "max_level": 4,
+      "tera": 4000.0,
+      "giro": 3500.0,
+      "urba": 1000.0
+    },
+    {
+      "enchantment_id": "minecraft:flame",
+      "max_level": 1,
+      "ultima": 5000.0,
+      "fira": 5000.0
+    },
+    {
+      "enchantment_id": "minecraft:fortune",
+      "max_level": 3,
+      "ultima": 5000.0,
+      "fira": 5000.0,
+      "kelda": 5000.0
+    },
+    {
+      "enchantment_id": "minecraft:frost_walker",
+      "max_level": 2,
+      "tera": 2000.0,
+      "fira": 3500.0
+    },
+    {
+      "enchantment_id": "minecraft:impaling",
+      "max_level": 5,
+      "zeta": 3000.0,
+      "ardo": 2500.0
+    },
+    {
+      "enchantment_id": "minecraft:infinity",
+      "max_level": 1,
+      "tera": 10000.0,
+      "ardo": 7500.0,
+      "kelda": 4000.0
+    },
+    {
+      "enchantment_id": "minecraft:knockback",
+      "max_level": 2,
+      "tera": 2000.0,
+      "fira": 3000.0,
+      "ardo": 2500.0
+    },
+    {
+      "enchantment_id": "minecraft:looting",
+      "max_level": 3,
+      "ultima": 5000.0,
+      "fira": 5000.0,
+      "kelda": 5000.0
+    },
+    {
+      "enchantment_id": "minecraft:loyalty",
+      "max_level": 3,
+      "zeta": 3500.0,
+      "fira": 4000.0
+    },
+    {
+      "enchantment_id": "minecraft:luck_of_the_sea",
+      "max_level": 3,
+      "tera": 2000.0,
+      "urba": 1500.0
+    },
+    {
+      "enchantment_id": "minecraft:lure",
+      "max_level": 3,
+      "tera": 1000.0
+    },
+    {
+      "enchantment_id": "minecraft:mending",
+      "max_level": 1,
+      "tera": 10000.0,
+      "kelda": 10000.0,
+      "fira": 10000.0,
+      "zeta": 10000.0,
+      "urba": 10000.0,
+      "ardo": 10000.0,
+      "ultima": 10000.0,
+      "giro": 10000.0
+    },
+    {
+      "enchantment_id": "minecraft:multishot",
+      "max_level": 1,
+      "ardo": 2500.0,
+      "tera": 3000.0
+    },
+    {
+      "enchantment_id": "minecraft:piercing",
+      "max_level": 4,
+      "zeta": 2000.0,
+      "ardo": 3500.0
+    },
+    {
+      "enchantment_id": "minecraft:power",
+      "max_level": 5,
+      "tera": 5000.0,
+      "ardo": 4500.0,
+      "kelda": 2500.0
+    },
+    {
+      "enchantment_id": "minecraft:projectile_protection",
+      "max_level": 4,
+      "tera": 5000.0,
+      "giro": 3000.0
+    },
+    {
+      "enchantment_id": "minecraft:punch",
+      "max_level": 2,
+      "ultima": 2500.0,
+      "giro": 1500.0
+    },
+    {
+      "enchantment_id": "minecraft:quick_charge",
+      "max_level": 3,
+      "fira": 3500.0,
+      "kelda": 4000.0
+    },
+    {
+      "enchantment_id": "minecraft:respiration",
+      "max_level": 3,
+      "tera": 2000.0,
+      "urba": 1000.0
+    },
+    {
+      "enchantment_id": "minecraft:riptide",
+      "max_level": 3,
+      "tera": 3500.0,
+      "kelda": 8000.0
+    },
+    {
+      "enchantment_id": "minecraft:silk_touch",
+      "max_level": 1,
+      "tera": 7500.0
+    },
+    {
+      "enchantment_id": "minecraft:smite",
+      "max_level": 5,
+      "tera": 2500.0,
+      "kelda": 4000.0
+    },
+    {
+      "enchantment_id": "minecraft:soul_speed",
+      "max_level": 3,
+      "tera": 2000.0
+    },
+    {
+      "enchantment_id": "minecraft:sweeping",
+      "max_level": 3,
+      "zeta": 4000.0,
+      "ardo": 3000.0,
+      "fira": 2500.0
+    },
+    {
+      "enchantment_id": "minecraft:thorns",
+      "max_level": 3,
+      "tera": 3500.0,
+      "kelda": 2000.0,
+      "ardo": 3000.0
+    },
+    {
+      "enchantment_id": "minecraft:unbreaking",
+      "max_level": 3,
+      "ultima": 3500.0
+    }
+  ]
+}
