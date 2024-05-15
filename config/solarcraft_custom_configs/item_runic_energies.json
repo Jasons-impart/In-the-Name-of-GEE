@@ -1,0 +1,65 @@
+{
+  "_comment": "The runic energy that contains in items (aka their costs in element weaver.)",
+  "minecraft:iron_ingot": {
+    "fira": 100.0
+  },
+  "minecraft:gold_ingot": {
+    "ardo": 150.0
+  },
+  "minecraft:enchanted_golden_apple": {
+    "zeta": 1500.0,
+    "ardo": 200.0,
+    "urba": 100.0
+  },
+  "minecraft:gunpowder": {
+    "kelda": 50.0
+  },
+  "minecraft:redstone": {
+    "zeta": 20.0
+  },
+  "solarcraft:solar_shard": {
+    "urba": 200.0,
+    "kelda": 100.0,
+    "giro": 50.0
+  },
+  "minecraft:flint": {
+    "tera": 30.0
+  },
+  "minecraft:copper_ingot": {
+    "zeta": 75.0
+  },
+  "minecraft:blaze_rod": {
+    "ardo": 150.0
+  },
+  "minecraft:ender_pearl": {
+    "urba": 300.0
+  },
+  "minecraft:netherite_ingot": {
+    "zeta": 1000.0,
+    "kelda": 2000.0,
+    "ardo": 500.0,
+    "fira": 500.0
+  },
+  "solarcraft:energy_dust": {
+    "kelda": 30.0
+  },
+  "solarcraft:solar_dust": {
+    "ultima": 30.0
+  },
+  "solarcraft:void_dust": {
+    "giro": 30.0
+  },
+  "solarcraft:enderite_essence": {
+    "ardo": 30.0
+  },
+  "minecraft:diamond": {
+    "tera": 300.0,
+    "kelda": 100.0,
+    "giro": 50.0
+  },
+  "minecraft:emerald": {
+    "tera": 100.0,
+    "ultima": 100.0,
+    "fira": 250.0
+  }
+}
