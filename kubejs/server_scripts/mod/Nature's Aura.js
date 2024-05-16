@@ -20,6 +20,26 @@ ServerEvents.recipes(event => {
     ),
     event.custom(
         {
+            "type": "naturesaura:tree_ritual",//森林仪式
+            "ingredients":[//输入物品，最多八种
+                {"item":"evilcraft:blood_infuser"},
+                {"item":"forbidden_arcanus:deorum_ingot"},
+                {"item":"bloodmagic:weakbloodorb"},
+                {"item":"l2complements:life_essence"},
+                {"item":"forbidden_arcanus:deorum_ingot"},
+                {"item":"l2complements:life_essence"},
+            ],
+            "sapling":{
+                "item": "occultism:otherworld_sapling"//仪式所需树苗
+            },
+            "output":{
+                "item": "bloodmagic:altar",//产物
+            },
+            "time": 100//时间  
+        }
+    ),
+    event.custom(
+        {
             "type": "naturesaura:altar",//灌注
             "input": {
                 "item": "elementalcraft:inert_crystal"//输入
