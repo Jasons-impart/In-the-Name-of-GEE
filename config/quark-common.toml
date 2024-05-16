@@ -763,7 +763,7 @@
 	"Fairy Rings" = true
 	"Fallen Logs" = true
 	"Glimmering Weald" = true
-	"Monster Box" = true
+	"Monster Box" = false
 	"Nether Obsidian Spikes" = true
 	"New Stone Types" = true
 	"No More Lava Pockets" = true
@@ -1339,7 +1339,7 @@
 	Shiba = true
 	Stonelings = true
 	Toretoise = true
-	Wraith = true
+	Wraith = false
 
 	[mobs.crabs]
 		"Enable Brewing" = true
