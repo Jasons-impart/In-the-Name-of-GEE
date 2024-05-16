@@ -34,9 +34,9 @@ ServerEvents.recipes(event => {
             { "item": "evilcraft:blood_infuser" },
             { "item": "forbidden_arcanus:deorum_ingot" },
             { "item": "bloodmagic:weakbloodorb" },
-            { "item": "l2complements:life_essence" },
+            { "item": "minecraft:redstone_block" },
             { "item": "forbidden_arcanus:deorum_ingot" },
-            { "item": "l2complements:life_essence" },
+            { "item": "the_bumblezone:royal_jelly_bottle" },
         ],
         "sapling": {
             "item": "occultism:otherworld_sapling"
@@ -54,10 +54,21 @@ ServerEvents.recipes(event => {
         "output": {
             "item": "elementalcraft:contained_crystal"
         },
+        "aura": 500,
+        "time": 80
+    });
+    event.custom({
+        "type": "naturesaura:altar", // 灌注
+        "input": {
+            "item": "evilcraft:dark_gem"
+        },
+        "output": {
+            "item": "forbidden_arcanus:arcane_crystal"
+        },
         "catalyst": {
             "item": "naturesaura:conversion_catalyst" // 催化剂
         },
-        "aura": 500,
+        "aura": 1000,
         "time": 80
     });
 
