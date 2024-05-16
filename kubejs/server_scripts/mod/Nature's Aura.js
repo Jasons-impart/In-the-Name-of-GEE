@@ -1,4 +1,15 @@
 ServerEvents.recipes(event => {
+    remove_recipes_output(event, ["naturesaura:gold_fiber"]),
+    event.shaped(Item.of("naturesaura:gold_fiber",1), [
+        'ABA',
+        'BCB',
+        'ABA'
+    ],
+    {
+        A: "ars_elemental:yellow_archwood_leaves",
+        B: "mna:purified_vinteum_dust",
+        C: "minecraft:grass"
+    })
     event.custom(
         {
             "type": "naturesaura:tree_ritual",//森林仪式
