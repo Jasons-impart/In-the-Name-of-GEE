@@ -13,5 +13,10 @@ ServerEvents.recipes(event => {
         B: "mna:decoration/arcane_stone",
         C: "minecraft:blast_furnace"
     }); 
+    event.custom({
+        "type": "mna:transmutation",
+        "targetBlock": "forbidden_arcanus:darkstone",
+        "replaceBlock": "evilcraft:dark_ore"  
+    });
 
 });
