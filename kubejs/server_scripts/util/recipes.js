@@ -1,14 +1,14 @@
 // priority: 100
 
 /**
- * @param { Internal.RecipesEventJS } event 
+ * @param { Internal.RecipesEventJS } event
  * @param { Internal.ItemStack[] } items
  */
 function remove_recipes_output(event, items) {
     event.remove({ output: items })
 }
 /**
- * @param { Internal.RecipesEventJS } event 
+ * @param { Internal.RecipesEventJS } event
  * @param { ResourceLocation[] } ids
  */
 function remove_recipes_id(event, ids) {
@@ -17,7 +17,7 @@ function remove_recipes_id(event, ids) {
     })
 }
 /**
- * @param { Internal.RecipesEventJS } event 
+ * @param { Internal.RecipesEventJS } event
  * @param { string[] } types
  */
 function remove_recipes_type(event, types) {
@@ -33,4 +33,23 @@ function remove_recipes_mod(event, mods) {
     mods.forEach(mod => {
         event.remove({ mod: mod })
     })
+}
+
+/**
+ * @param { Internal.RecipesEventJS } event
+ * @param { int } tier
+ * @param { string } output
+ * @param { int } quantity
+ * @param { string[] } items
+ * @param { string[] } patterns
+ */
+function manaweaving_recipe(event, tier, output, quantity, items, patterns) {
+    event.custom({
+        type: "mna:manaweaving-recipe",
+        tier: tier,
+        output: output,
+        quantity: quantity,
+        items: items,
+        patterns: patterns
+    });
 }
