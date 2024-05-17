@@ -22,11 +22,11 @@ ServerEvents.recipes(event => {
     }); 
     event.shaped("evilcraft:blood_infuser", [
         "AAA",
-        "ACA",
+        "ABA",
         "AAA",
     ], {
         A: "mna:decoration/arcane_stone",
-        C: "evilcraft:blood_infusion_core",
+        B: "evilcraft:blood_infusion_core",
     });
     event.custom({
         "type": "evilcraft:blood_infuser",

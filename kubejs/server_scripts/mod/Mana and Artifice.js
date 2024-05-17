@@ -52,9 +52,8 @@ ServerEvents.recipes(event => {
         ],
         [
             "mna:circle",
-            "mna:circle"   
+            "mna:circle"
         ]
-
-    )
+    );
 
 });
