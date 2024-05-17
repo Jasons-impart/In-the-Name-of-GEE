@@ -60,15 +60,15 @@ ServerEvents.recipes(event => {
     event.custom({
         "type": "naturesaura:altar", // 灌注
         "input": {
-            "item": "evilcraft:dark_gem"
+            "item": "elementalcraft:drenched_iron_ingot"
         },
         "output": {
-            "item": "forbidden_arcanus:arcane_crystal"
+            "item": "elementalcraft:swift_alloy_ingot"
         },
         "catalyst": {
             "item": "naturesaura:conversion_catalyst" // 催化剂
         },
-        "aura": 1000,
+        "aura": 1500,
         "time": 80
     });
 
