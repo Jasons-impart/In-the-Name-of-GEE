@@ -11,6 +11,15 @@ ServerEvents.recipes(event => {
         "evilcraft:promise_tier_3",
         "evilcraft:promise_efficiency_0"
     ]);
+    event.shaped("evilcraft:promise_tier_1", [
+        "ABA",
+        "BCB",
+        "ABA",
+    ], {
+        A: "forbidden_arcanus:arcane_crystal_block",
+        B: "mna:animus_dust",
+        C: "evilcraft:promise_acceptor_iron"
+    }); 
     event.shaped("evilcraft:blood_infuser", [
         "AAA",
         "ACA",

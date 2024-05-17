@@ -19,6 +19,11 @@ ServerEvents.recipes(event => {
         "targetBlock": "forbidden_arcanus:darkstone",
         "replaceBlock": "evilcraft:dark_ore"  
     });
+    event.custom({
+        "type": "mna:transmutation",
+        "targetBlock": "minecraft:amethyst_block",
+        "replaceBlock": "elementalcraft:inertcrystal_block"  
+    });
     manaweaving_recipe(event,
         1,
         "evilcraft:blood_infusion_core",
@@ -35,6 +40,21 @@ ServerEvents.recipes(event => {
             "mna:circle",
             "mna:slash"
         ]
+    );
+    manaweaving_recipe(event,
+        1,
+        "bloodmagic:weakbloodorb",
+        1,
+        [
+            'evilcraft:blood_orb_filled',
+            'forbidden_arcanus:mundabitur_dust',
+            'forbidden_arcanus:mundabitur_dust'
+        ],
+        [
+            "mna:circle",
+            "mna:circle"   
+        ]
+
     )
 
 });

@@ -60,6 +60,17 @@ ServerEvents.recipes(event => {
     event.custom({
         "type": "naturesaura:altar", // 灌注
         "input": {
+            "item": "minecraft:amethyst_block"
+        },
+        "output": {
+            "item": "forbidden_arcanus:arcane_crystal_block"
+        },
+        "aura": 1000,
+        "time": 100
+    });
+    event.custom({
+        "type": "naturesaura:altar", // 灌注
+        "input": {
             "item": "elementalcraft:drenched_iron_ingot"
         },
         "output": {
