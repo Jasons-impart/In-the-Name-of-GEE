@@ -9,6 +9,6 @@ ServerEvents.recipes(event => {
     ], {
         A: "mna:decoration/arcane_stone",
         C: "evilcraft:blood_infusion_core",
-    }); 
+    });
 
-})
+});
