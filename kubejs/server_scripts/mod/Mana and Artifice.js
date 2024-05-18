@@ -14,6 +14,14 @@ ServerEvents.recipes(event => {
         B: "mna:decoration/arcane_stone",
         C: "minecraft:blast_furnace"
     }); 
+    event.shaped("mna:manaweaving_altar",[
+        "A A",
+        "ABA",
+        "BBB",
+    ], {
+        A: "mna:decoration/arcane_sandstone",
+        B: "mna:decoration/arcane_stone"
+    });
     event.custom({
         "type": "mna:transmutation",
         "targetBlock": "forbidden_arcanus:darkstone",
