@@ -53,3 +53,16 @@ function manaweaving_recipe(event, tier, output, quantity, items, patterns) {
         patterns: patterns // 织魔图案
     });
 }
+
+/**
+ * @param { Internal.RecipesEventJS } event
+ * @param { string } targetBlock
+ * @param { string } replaceBlock
+ */
+function manatransmutation(event, targetBlock,replaceBlock){
+    event.custom({
+        type: "mna:transmutation",
+        targetBlock: targetBlock,
+        replaceBlock: replaceBlock
+    })
+}
